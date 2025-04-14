@@ -9,14 +9,33 @@ This project uses only vanilla resources, so there will be some changes in both 
 # INFO FOR DATAPACK MAKERS:
 
 ## MENUS
+- ### Menu Page Functions
+  - `interact:{playsound:{name:"namespace",pitch:"0-2"}}`
+  - `interact:{tellraw:{text:"text",selector:"selector"}}`
+  - `interact:{go_back:1}` number can be greater than 1
+  - `interact:{page_function:"change_page",page:"_page_"}` note: page path is saved in the menus data "data.menu.page"
+  - `interact:{page_function:"close"}`
+    
+
 - ### Inventory Menu
-creates a menu with a list of items/loot-tables from a storage
+creates a list of menus that contain a list of items/loot-tables saved in a storage
+
+- `data merge storage temp:menu_ui {temp:{storage:"",nbt:"",path:"",ui_type:"1-3",type:"item/loot",loot_path:"path"}}`
+  - `storage`
+  - `nbt`
+  - `path`
+  - `ui_type`
+    - 1 = 9x2
+    - 2 = 7x2
+    - 3 = 7x1
+  - `item_modifier`
+- function `function menu:inv_menu/main`
+
 #### Items
+storage `skyblock:temp` `[{id:"minecraft:diamond_sword",count:1},{id:"minecraft:stone",count:32},{id:"minecraft:golden_pickaxe",count:1},{id:"minecraft:diamond",count:12},{id:"minecraft:diamond",count:12},{id:"minecraft:diamond",count:12},{id:"minecraft:diamond",count:12},{id:"minecraft:diamond",count:12},{id:"minecraft:diamond",count:12},{id:"minecraft:diamond",count:12},{id:"minecraft:diamond",count:12}]`
+
 #### Loot Tables
-`data merge storage temp:menu_ui {temp:{storage:"(storage)",nbt:"(nbt)",path:".(path)",ui_type:(1-3),type:"(item/loot)",loot_path:"(path)/"}}`
-`storage` source
-`nbt` path from the storage
-`path` additional path
+
 
 ## FUNCTION TAGS
 function #menu:hotbar > replaces slot hotbar.8 with a custom menu item, (e.g Game Menu, SkyBlock Menu, Quiver), requires player tag "hotbar_override" to function
