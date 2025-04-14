@@ -9,6 +9,7 @@ This project uses only vanilla resources, so there will be some changes in both 
 # INFO FOR DATAPACK MAKERS:
 
 ## MENUS
+- ### Inventory Menu
 `data merge storage temp:menu_ui {temp:{storage:"(storage)",nbt:"(nbt)",path:".(path)",ui_type:(1-3),type:"(item/loot)",loot_path:"(path)/"}}`
 `storage` source
 `nbt` path from the storage
