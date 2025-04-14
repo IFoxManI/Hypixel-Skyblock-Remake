@@ -8,21 +8,19 @@ This project uses only vanilla resources, so there will be some changes in both 
 
 # INFO FOR DATAPACK MAKERS:
 
-## Stats
-`D(stat)` dungeon stat (e.g DStrength = dungeon strength)
-
 ## MENUS
 `data merge storage temp:menu_ui {temp:{storage:"(storage)",nbt:"(nbt)",path:".(path)",ui_type:(1-3),type:"(item/loot)",loot_path:"(path)/"}}`
+`storage` source
+`nbt` path from the storage
+`path` additional path
 
-
-#===FUNCTION TAGS===#
-
+## FUNCTION TAGS
 function #menu:hotbar > replaces slot hotbar.8 with a custom menu item, (e.g Game Menu, SkyBlock Menu, Quiver), requires player tag "hotbar_override" to function
 function #items:new_item > modifies new vanilla items nbt (used for item modifiers on vanilla items)
 function #skyblock:base_player_stats > sets player base stats (used for custom stats)
 
 
-function #skyblock:selectors/player (player selector, "ticking")
-function #islands:main (custom island functions, "ticking")
-function #skyblock:selectors/player/trigger (trigger functions, "ticking")
-function #skyblock:selectors/player/cooldown (player cooldowns, "ticking")
+`function #skyblock:selectors/player` player selector, "ticking"
+`function #islands:main` custom island functions, "ticking"
+`function #skyblock:selectors/player/trigger` trigger functions, "ticking"
+`function #skyblock:selectors/player/cooldown` player cooldowns, "ticking"
