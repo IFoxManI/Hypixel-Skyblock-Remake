@@ -30,7 +30,7 @@ creates a list of menus that contain a list of items/loot-tables saved in a stor
     - 3 = 7x1
   - `item_modifier`
   - `function` to modify the item if `item_modifier` is limited
-- function `function menu:inv_menu/main`
+- `function menu:inv_menu/main`
 
 #### Items
 storage `skyblock:temp` `[{id:"minecraft:diamond_sword",count:1},{id:"minecraft:stone",count:32},{id:"minecraft:golden_pickaxe",count:1},{id:"minecraft:diamond",count:12},{id:"minecraft:diamond",count:12},{id:"minecraft:diamond",count:12},{id:"minecraft:diamond",count:12},{id:"minecraft:diamond",count:12},{id:"minecraft:diamond",count:12},{id:"minecraft:diamond",count:12},{id:"minecraft:diamond",count:12}]`
