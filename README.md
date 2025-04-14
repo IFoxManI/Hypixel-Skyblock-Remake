@@ -11,6 +11,7 @@ INFO FOR DATAPACK MAKERS:
 D(stat) = dungeon stat (e.g DStrength = dungeon strength)
 
 #===MENUS===#
+
 data merge storage temp:menu_ui {temp:{storage:"(storage)",nbt:"(nbt)",path:".(path)",ui_type:(1-3),type:"(item/loot)",loot_path:"(path)/"}}
 
 
