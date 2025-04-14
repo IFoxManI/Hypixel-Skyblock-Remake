@@ -11,8 +11,8 @@ This project uses only vanilla resources, so there will be some changes in both 
 ## MENUS
 - ### Inventory Menu
 creates a menu with a list of items/loot-tables from a storage
-- #### Items
-- #### Loot Tables
+#### Items
+#### Loot Tables
 `data merge storage temp:menu_ui {temp:{storage:"(storage)",nbt:"(nbt)",path:".(path)",ui_type:(1-3),type:"(item/loot)",loot_path:"(path)/"}}`
 `storage` source
 `nbt` path from the storage
