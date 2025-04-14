@@ -6,7 +6,7 @@ Almost every feature will be purely customizable, either directly from a section
 This project uses only vanilla resources, so there will be some changes in both gameplay and design (for example menus are reduced to 3 rows instead of 6), and the original features that are purely designed to be multiplayer will have some changes to adapt them to 8 players, or to make them entirely singleplayer.
 
 
-INFO FOR DATAPACK MAKERS:
+`INFO FOR DATAPACK MAKERS:`
 #Stats
 D(stat) = dungeon stat (e.g DStrength = dungeon strength)
 
