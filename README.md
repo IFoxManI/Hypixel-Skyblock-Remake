@@ -12,8 +12,10 @@ D(stat) = dungeon stat (e.g DStrength = dungeon strength)
 
 
 #FUNCTION TAGS
-function #menu:hotbar
-replaces hotbar.8 with menu item, (e.g Game Menu, SkyBlock Menu, Quiver), requires "hotbar_override" player tag
+function #menu:hotbar > replaces slot hotbar.8 with a custom menu item, (e.g Game Menu, SkyBlock Menu, Quiver), requires player tag "hotbar_override" to function
+function #items:new_item > modifies new vanilla items nbt (used for item modifiers on vanilla items)
+function #skyblock:base_player_stats > sets player base stats (used for custom stats)
+
 
 function #skyblock:selectors/player (player selector, "ticking")
 function #islands:main (custom island functions, "ticking")
