@@ -25,11 +25,10 @@ creates a list of menus that contain a list of items/loot-tables saved in a stor
   - `nbt`
   - `path`
   - `ui_type`
-    - 1
-  ![inv_menu1](https://github.com/user-attachments/assets/1c98b9f3-2d02-4fac-9184-202dd21de4bf)
 
-    - 2 = 7x2
-    - 3 = 7x1
+       1               | 2               | 3
+      :------------------:|:---------------------:|:----------------------:
+      ![](images/inv_menu1.png) | ![](images/inv_menu2.png) | ![](images/inv_menu3.png) 
   - `item_modifier`
   - `function` to modify the item if `item_modifier` is limited
 - `function menu:inv_menu/main`
