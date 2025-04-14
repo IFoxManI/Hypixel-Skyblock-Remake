@@ -20,7 +20,7 @@ function #items:new_item > modifies new vanilla items nbt (used for item modifie
 function #skyblock:base_player_stats > sets player base stats (used for custom stats)
 
 
-`function #skyblock:selectors/player` player selector, "ticking"
-`function #islands:main` custom island functions, "ticking"
-`function #skyblock:selectors/player/trigger` trigger functions, "ticking"
-`function #skyblock:selectors/player/cooldown` player cooldowns, "ticking"
+-`function #skyblock:selectors/player` player selector, "ticking"
+-`function #islands:main` custom island functions, "ticking"
+-`function #skyblock:selectors/player/trigger` trigger functions, "ticking"
+-`function #skyblock:selectors/player/cooldown` player cooldowns, "ticking"
