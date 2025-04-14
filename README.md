@@ -8,12 +8,11 @@ This project uses only vanilla resources, so there will be some changes in both 
 
 # INFO FOR DATAPACK MAKERS:
 
-Stats
+## Stats
 `D(stat)` dungeon stat (e.g DStrength = dungeon strength)
 
 ## MENUS
-
-data merge storage temp:menu_ui {temp:{storage:"(storage)",nbt:"(nbt)",path:".(path)",ui_type:(1-3),type:"(item/loot)",loot_path:"(path)/"}}
+`data merge storage temp:menu_ui {temp:{storage:"(storage)",nbt:"(nbt)",path:".(path)",ui_type:(1-3),type:"(item/loot)",loot_path:"(path)/"}}`
 
 
 #===FUNCTION TAGS===#
