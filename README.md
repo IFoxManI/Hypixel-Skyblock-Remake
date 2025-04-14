@@ -29,6 +29,7 @@ creates a list of menus that contain a list of items/loot-tables saved in a stor
     - 2 = 7x2
     - 3 = 7x1
   - `item_modifier`
+  - `function` to modify the item if `item_modifier` is limited
 - function `function menu:inv_menu/main`
 
 #### Items
