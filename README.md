@@ -7,6 +7,8 @@ This project uses only vanilla resources, so there will be some changes in both 
 
 ## FOR DATAPACK MAKERS
 ### [Menus](Menus.md)
+### [Stats](Stats.md)
+
 
 ## FUNCTION TAGS
 function #menu:hotbar > replaces slot hotbar.8 with a custom menu item, (e.g Game Menu, SkyBlock Menu, Quiver), requires player tag "hotbar_override" to function
