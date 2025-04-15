@@ -19,3 +19,4 @@
       - name: `<namespace>`
       - group: `<namespace>`
       - description: `SNBT` (text)
+    - __modifiers:__ `[{id:"",total:"",display:"",modifiers:[]}]`
