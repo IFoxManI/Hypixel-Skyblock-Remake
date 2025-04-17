@@ -20,7 +20,7 @@ creates a list of menus that contain a list of items/loot-tables saved in a stor
       :------------------:|:---------------------:|:----------------------:
       ![](images/inv_menu1.png) | ![](images/inv_menu2.png) | ![](images/inv_menu3.png) 
   - `item_modifier`
-  - `function` to modify the item if `item_modifier` is limited
+  - `function` ran with storage `temp:menu_ui`, to modify the slot use `$(menu_slot)`
 - `function menu:inv_menu/main`
 
 #### Items
