@@ -1,7 +1,6 @@
 ## STATS
 ### Scoreboard
 - `P_<stat>`
-- `P_<stat>D`
 
 
 ### Storage
