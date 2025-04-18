@@ -1,6 +1,6 @@
 ## MENUS
 - ### Menu Page Functions
-  - `interact:{playsound:{name:"namespace",pitch:"0-2"}}`
+  - `interact:{playsound:{name:"namespace",pitch:"0-2",volume:"0-2"}}`
   - `interact:{tellraw:{text:"text",selector:"selector"}}`
   - `interact:{go_back:1}` number can be greater than 1
   - `interact:{page_function:"change_page",page:"_page_"}` note: page path is saved in the menus data "data.menu.page"
