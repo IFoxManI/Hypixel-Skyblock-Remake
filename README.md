@@ -11,7 +11,7 @@ This project uses only vanilla resources, so there will be some changes in both 
 
 
 ## FUNCTION TAGS
-function #menu:hotbar > replaces slot hotbar.8 with a custom menu item, (e.g Game Menu, SkyBlock Menu, Quiver), requires player tag "hotbar_override" to function
+function #menu:hotbar > replaces slot hotbar.8 with a custom menu item, (e.g Game Menu, SkyBlock Menu, Quiver Arrow), requires player tag "hotbar_override" to function
 function #items:new_item > modifies new vanilla items nbt (used for item modifiers on vanilla items)
 function #skyblock:base_player_stats > sets player base stats (used for custom stats)
 
