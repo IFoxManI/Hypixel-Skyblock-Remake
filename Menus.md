@@ -1,11 +1,11 @@
 ## MENUS
 - ### Menu Page Functions
   - page_function: `"change_page"`
-  - page: `path` menu:menus/`page`
+  - page: `<string>` menu:menus/`page`
   - page_function: `"close"`
   - go_back: `int`
   - tellraw: {}
-    - text: `SNBT`
+    - text: `<string>`
     - selector: `@$`
   - playsound: {}
     - name: `<string>`
