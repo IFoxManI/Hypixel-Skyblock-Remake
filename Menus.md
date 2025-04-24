@@ -8,7 +8,7 @@
     - text: `SNBT`
     - selector: `@$`
   - playsound: {}
-    - name: `minecraft:<namespace>`
+    - name: `<string>`
     - pitch: `number` 0..2
     - volume: `number` 0..2
 
