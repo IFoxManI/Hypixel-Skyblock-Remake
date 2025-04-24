@@ -20,10 +20,10 @@ custom_data={Menu:1b,interact:{page_function:"change_page",page:"mainmenu/main",
 creates a list of menus that contain a list of items/loot-tables saved in a storage
 
 - `data merge storage temp:menu_ui {temp:{storage:"",nbt:"",path:"",ui_type:"1-3",type:"item/loot",loot_path:"path"}}`
-  - `storage`
-  - `nbt`
-  - `path`
-  - `ui_type`
+  - storage: ``
+  - nbt: ``
+  - path: ``
+  - ui_type: ``
 
        1               | 2               | 3
       :------------------:|:---------------------:|:----------------------:
