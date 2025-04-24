@@ -5,7 +5,7 @@
   - page_function: `"close"`
   - go_back: `int`
   - tellraw: {}
-    - text: `<string>`
+    - text: `SNBT`
     - selector: `@$`
   - playsound: {}
     - name: `<string>`
