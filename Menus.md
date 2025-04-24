@@ -1,11 +1,12 @@
 ## MENUS
 - ### Menu Page Functions
   - `tellraw:{text:"",selector:""}`
-    - text: `text format`
+    - text: `SNBT`
     - selector: `@$`
-  - `go_back:` number can be greater than 1
-  - `interact:{page_function:"change_page",page:"_page_"}` note: page path is saved in the menus data "data.menu.page"
-  - `interact:{page_function:"close"}`
+  - go_back: `integer`
+  - page_function: `"change_page"`
+  - page: `path` menu:menus/`$(page)`
+  - page_function: `"close"`
     
 
 - ### Inventory Menu
