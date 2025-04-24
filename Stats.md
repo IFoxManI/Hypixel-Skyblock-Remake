@@ -6,16 +6,16 @@
 ### Storage
 - total `[{id:"",flat:"",additive:"",multiplicative:""}]`
   - id: `<namespace>` (stat)
-  - flat: `number`
-  - additive: `number`
-  - multiplicative: `number`
+  - flat: `float`
+  - additive: `float`
+  - multiplicative: `float`
 - modifiers: `[{id:"",total:"",display:"",modifiers:[]}]`
   - __id:__ `<namespace>`
   - __total:__ `[{id:"",flat:"",additive:"",multiplicative:""}]`
     - id: `<namespace>` (stat)
-    - flat: `number`
-    - additive: `number`
-    - multiplicative: `number`
+    - flat: `float`
+    - additive: `float`
+    - multiplicative: `float`
   - __display:__ `{Item:{},name:"",group:"",description:[]}`
     - Item: `{id:"",components:{}}`
       - id: `minecraft:<namespace>`
