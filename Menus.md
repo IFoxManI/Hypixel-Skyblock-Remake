@@ -11,6 +11,10 @@
     - name: `<string>`
     - pitch: `number` 0..2
     - volume: `number` 0..2
+   
+```
+custom_data={Menu:1b,interact:{page_function:"change_page",page:"mainmenu/main",tellraw:{text:{text:"Hello world!",color:"yellow"},selector:"@p"},playsound:{name:"minecraft:entity.player.hurt",volume:1,pitch:2}}}
+```
 
 - ### Inventory Menu
 creates a list of menus that contain a list of items/loot-tables saved in a storage
