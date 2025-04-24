@@ -1,6 +1,6 @@
 ## MENUS
 - ### Menu Page Functions
-  - `tellraw:{text:"",selector:""}`
+  - tellraw: {}
     - text: `SNBT`
     - selector: `@$`
   - go_back: `integer`
