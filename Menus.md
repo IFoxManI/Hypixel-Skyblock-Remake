@@ -1,13 +1,16 @@
 ## MENUS
 - ### Menu Page Functions
+  - page_function: `"change_page"`
+  - page: `path` menu:menus/`page`
+  - page_function: `"close"`
+  - go_back: `int`
   - tellraw: {}
     - text: `SNBT`
     - selector: `@$`
-  - go_back: `integer`
-  - page_function: `"change_page"`
-  - page: `path` menu:menus/`$(page)`
-  - page_function: `"close"`
-    
+  - playsound: {}
+    - name: `minecraft:<namespace>`
+    - pitch: `number` 0..2
+    - volume: `number` 0..2
 
 - ### Inventory Menu
 creates a list of menus that contain a list of items/loot-tables saved in a storage
