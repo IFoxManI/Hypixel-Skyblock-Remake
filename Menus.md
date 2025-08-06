@@ -25,9 +25,9 @@ creates a list of menus that contain a list of items/loot-tables saved in a stor
   - path: ``
   - ui_type: ``
 
-       1               | 2               | 3               | 4               | 5
-      :------------------:|:---------------------:|:----------------------:|:----------------------:|:----------------------:
-      ![](images/inv_menu1.png) | ![](images/inv_menu2.png) | ![](images/inv_menu3.png) | ![](images/inv_menu4.png) | ![](images/inv_menu5.png) 
+       1               | 2               | 3
+      :------------------:|:---------------------:|:----------------------:
+      ![](images/inv_menu1.png) | ![](images/inv_menu2.png) | ![](images/inv_menu3.png) 
   - `item_modifier`
   - `function` ran with storage `temp:menu_ui`, to modify the slot use `$(menu_slot)`
 - `function menu:inv_menu/main`
